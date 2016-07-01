@@ -28,7 +28,7 @@ if (file_exists($target_file)) {
 if ($_FILES["fileToUpload"]["size"] > 5000000) {
 	$uploadOK=0;
 }
-if ($imageFileType != "jpg" && $imageFileType != "svg" && $imageFileType != "jpeg" && $imageFileType != "png" && $imageFileType != "gif" && $imageFileType != "bmp"){
+if ($imageFileType != "jpg" && $imageFileType != "svg" && $imageFileType != "jpeg" && $imageFileType != "png" && $imageFileType != "gif" && $imageFileType != "bmp" && $imageFileType != "JPG" && $imageFileType != "SVG" && $imageFileType != "JPEG" && $imageFileType != "PNG" && $imageFileType != "GIF" && $imageFileType != "BMP"){
 	$uploadOK=0;
 } 
 if ($uploadOK==1){
